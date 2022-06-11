@@ -4,9 +4,7 @@ package com.melanich.MagazineDemo.ProductController;
 import com.melanich.MagazineDemo.Entities.Product;
 import com.melanich.MagazineDemo.ProductRepositories.Specifications.ProductSpec;
 import com.melanich.MagazineDemo.ProductServises.ProductService;
-import lombok.val;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Controller;
@@ -14,7 +12,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
-import java.util.List;
 
 @Controller
 @RequestMapping("/products")
